@@ -1,0 +1,46 @@
+body{
+  text-align: center;
+  margin: 0;
+}
+
+.text{
+  font-size: 50px;
+  font-family: 'Niconne', cursive;
+}
+.sub-text{
+  font-size: 30px;
+  font-family: 'Merriweather', serif;
+}
+.top_page{
+  background-color: #c6fced;
+  position: relative;
+  padding-top: 175px;
+}
+
+.top_cloud{
+position: absolute;
+top:150px;
+right:25%;
+}
+.bottom_cloud{
+  position: absolute;
+  top:350px;
+  left:25%;
+}
+.profile-pic{
+  height: 250px;
+  width: 150px;
+}
+.machine{
+  height: 200px;
+  width: 200px;
+}
+
+.web{
+  height: 200px;
+  width: 200px;
+}
+
+.link{
+  display: inline;
+}
