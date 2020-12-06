@@ -10,7 +10,7 @@ body{
   padding-top: 100px;
 }
 .text{
-  font-size: 90px;
+  font-size: 5rem;
   color: #66BFBF;
   margin-bottom: 0;
   font-family: 'Niconne', cursive;
@@ -22,16 +22,21 @@ body{
   font-weight: 900;
 }
 .top_cloud{
+  width: 15%;
 position: absolute;
 top:80px;
 right:25%;
 }
 .bottom_cloud{
+  width: 15%;
   position: absolute;
-  top:350px;
+  top:330px;
   left:25%;
 }
 
+.mountain{
+  width: 45%;
+}
 /*---------MIDDLE-PAGE---------*/
 
 .hello{
@@ -46,34 +51,32 @@ right:25%;
 .machine{
   height: 200px;
   width: 200px;
-  position: relative;
-  top: 10px;
-  right: 25%;
+  float: left;
+  margin-right: 20px;
 }
 
 .web{
   height: 200px;
   width: 200px;
-  position: relative;
-  left: 25%;
+  float: right;
+  margin-left: 20px;
+}
 
+.skills{
+  width:50%;
+  margin: 100px auto 200px auto;
 }
 .subject1{
   color: #11999E;
+  margin-top: 100px;
 }
-.sub1{
-position: relative;
-bottom: 150px;
-left: 25%;
-}
+
 .subject2{
   color: #11999E;
-
+  margin-top: 20px;
 }
-.sub2{
-  position: relative;
-  bottom: 150px;
-  right: 25%;
+.sub1{
+  margin: 30px auto 170px auto;
 }
 
 /*---------BOTTOM-PAGE---------*/
@@ -81,6 +84,8 @@ left: 25%;
 .bottom-page{
   background-color: #c6fced;
   margin: 0 auto 0 auto;
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
 a{
   color: #11999E;
