@@ -3,23 +3,27 @@ body{
   margin: 0;
 }
 
+/*---------TOP-PAGE---------*/
+.top_page{
+  background-color: #c6fced;
+  position: relative;
+  padding-top: 100px;
+}
 .text{
-  font-size: 50px;
+  font-size: 90px;
+  color: #66BFBF;
+  margin-bottom: 0;
   font-family: 'Niconne', cursive;
 }
 .sub-text{
   font-size: 30px;
+  color: #66BFBF;
   font-family: 'Merriweather', serif;
+  font-weight: 900;
 }
-.top_page{
-  background-color: #c6fced;
-  position: relative;
-  padding-top: 175px;
-}
-
 .top_cloud{
 position: absolute;
-top:150px;
+top:80px;
 right:25%;
 }
 .bottom_cloud{
@@ -27,16 +31,58 @@ right:25%;
   top:350px;
   left:25%;
 }
+
+/*---------MIDDLE-PAGE---------*/
+
+.hello{
+  color: #66BFBF;
+}
+
 .profile-pic{
   height: 250px;
   width: 150px;
 }
+
 .machine{
   height: 200px;
   width: 200px;
+  position: relative;
+  top: 10px;
+  right: 25%;
 }
 
 .web{
   height: 200px;
   width: 200px;
+  position: relative;
+  left: 25%;
+
+}
+.subject1{
+  color: #11999E;
+}
+.sub1{
+position: relative;
+bottom: 150px;
+left: 25%;
+}
+.subject2{
+  color: #11999E;
+
+}
+.sub2{
+  position: relative;
+  bottom: 150px;
+  right: 25%;
+}
+
+/*---------BOTTOM-PAGE---------*/
+
+.bottom-page{
+  background-color: #c6fced;
+  margin: 0 auto 0 auto;
+}
+a{
+  color: #11999E;
+  text-decoration: none;
 }
